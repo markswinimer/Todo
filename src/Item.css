@@ -1,0 +1,18 @@
+.Item {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  height: 60px;
+  margin-bottom: .5rem;
+  background-color: #FFF8D4;
+  padding: 0 2rem;
+  /* padding-left: 2rem; */
+}
+
+.Item-icons {
+  margin-left: auto;
+}
+.fas {
+  margin-left: 1rem;
+}

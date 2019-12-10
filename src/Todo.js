@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import Item from './Item';
+import ItemForm from './ItemForm';
 import "./Todo.css";
 
 class Todo extends Component {
   render() {
     this.state = {
-      zero: "ZERO"
+      list: ["one"]
     }
     return(
       <div className="Todo">
-        Todo Component
-        <h1>Todo</h1>
-        <h1>LIST</h1>
-        {this.state.zero}
+        <h1 className="Todo-Title">Todo List</h1>
+        <Item />
+        <Item />
+        <ItemForm />
+        {/* <div className="Todo-ribbon"></div> */}
       </div>
     )
   }

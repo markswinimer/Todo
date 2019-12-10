@@ -1,0 +1,35 @@
+.ItemForm {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.ItemForm h2 {
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  line-height: 41px;
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin-right: 1rem;
+  border-radius: 3px;
+}
+
+.ItemForm button {
+  font-size: 18px;
+  line-height: 38px;
+  letter-spacing: .5px;
+  background-color: #444444;
+  color: white;
+  border: none;
+  padding: 0 12px;
+  border-radius: 3px;
+}
+.ItemForm-input {
+  display: flex;
+
+}
+.ItemForm-input input {
+  flex-grow: 1;
+
+}
