@@ -12,7 +12,37 @@
 
 .Item-icons {
   margin-left: auto;
+  cursor: pointer;
 }
 .fas {
   margin-left: 1rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  line-height: 41px;
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin-right: 1rem;
+  border-radius: 3px;
+}
+
+.Item button {
+  font-size: 18px;
+  line-height: 38px;
+  letter-spacing: .5px;
+  background-color: #444444;
+  color: white;
+  border: none;
+  padding: 0 12px;
+  border-radius: 3px;
 }
